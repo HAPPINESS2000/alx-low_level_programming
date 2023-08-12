@@ -1,11 +1,11 @@
-#include <studio.h>
-#include <unistd.h>
+#include<stdio.h>
 /**
- *  * main - Entry point
- *   * Return: 0 (success)
- *    */
-Int main (void)
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-	 fPuts("and that piece of art is useful\n"......",  stdout);
-	 return (1);
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 }
