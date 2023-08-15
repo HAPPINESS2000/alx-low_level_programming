@@ -1,11 +1,8 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
 #include <stdio.h>
-/* betty style doc for function main goes there */
+
 /**
- * main - Software is eating the World
- * Return: Always 0
+ * main - prints all possible combinations of two two-digit numbers
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -28,7 +25,9 @@ int main(void)
 					putchar(' ');
 				}
 			}
+
 		}
 	}
 	putchar('\n');
 	return (0);
+}
